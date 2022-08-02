@@ -117,9 +117,11 @@
                 tile.classList.remove('playerO');
             });
         }
-        tiles.forEach( (tile,index) =>
+
+    tiles.forEach( (tile,index) =>
      {
         tile.addEventListener('click', () => userAction(tile,index));
      });
+
         resetButton.addEventListener('click',resetBoard);
        });
