@@ -1,0 +1,56 @@
+body
+{
+background-color: black;
+margin:0%;
+padding: 0%;
+}
+.header
+{
+    color: azure;
+    text-decoration:underline;
+    font-family:fantasy;
+    font-style: oblique;
+    font-size:xx-large;
+    text-align: center;
+    text-shadow:10px 25px 10px rgba(240, 255, 255, 0.559);
+}
+.hide
+{
+    display: none;
+}
+.grid-container
+{
+    margin:0 auto;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 10px;
+    max-width:300px;
+}
+.tile
+{
+    color:aliceblue;
+    border:1px solid white;
+    max-width:200px;
+    max-height:200px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 50px;
+    cursor:pointer;
+}
+.playerX
+{
+    color: aquamarine;
+
+}
+.playerO
+{
+    color: darkseagreen;
+
+}
+
+.controls
+{
+    di
+}
